@@ -1,0 +1,43 @@
+{
+  "report_title": "NBR SOTS - Daily Management Report",
+  "timezone_offset": "+05:30",
+  "recipients": [
+    "digital@nbrgroup.in",
+    "bruhan@nbrgroup.in",
+    "shashivardhan@nbrgroup.in",
+    "rajeshg@nbrgroup.in",
+    "murli@nbrgroup.in",
+    "roshan@nbrgroup.in",
+    "coo@nbrgroup.in",
+    "dhanush@nbrgroup.in",
+    "nbreddy@nbrgroup.in"
+  ],
+  "teams": [
+    {
+      "name": "Pre-Sales",
+      "users": [
+        {"name": "Bhavya", "id": "005Kj00000CDEoeIAH", "phone": "9035016795"},
+        {"name": "Kusuma", "id": "005Kj00000CDEofIAH", "phone": "9035019806"},
+        {"name": "Bharath", "id": "005Kj00000CDa4kIAD", "phone": "9035014907"}
+      ]
+    },
+    {
+      "name": "Sales",
+      "users": [
+        {"name": "Husman", "id": "005Kj00000CDEodIAH", "phone": "9035097083"},
+        {"name": "Nidhin", "id": "005Kj00000CDEogIAH", "phone": "9035664809"},
+        {"name": "Anusha", "id": "005Kj00000CDa4lIAD", "phone": "9035657634"},
+        {"name": "Sreenath", "id": "005Kj00000CD7qdIAD", "phone": "9035019178"},
+        {"name": "Abhishek", "id": "005Kj00000CD7qeIAD", "phone": "9035018926"},
+        {"name": "Roshan", "id": "005Kj00000CD9PQIA1", "phone": "6366747480"}
+      ]
+    },
+    {
+      "name": "CP",
+      "users": [
+        {"name": "Ahmed", "id": "005Kj00000CE2mWIAT", "phone": null},
+        {"name": "Amar", "id": "005Kj00000CDa4iIAD", "phone": "9035048617"}
+      ]
+    }
+  ]
+}
