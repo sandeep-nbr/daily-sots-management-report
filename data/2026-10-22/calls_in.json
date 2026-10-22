@@ -1,0 +1,5 @@
+[{"Call_To__c":"9035019806","Status__c":"ANSWER","c":1,"m":0.43},
+{"Call_To__c":"9035014907","Status__c":"CANCEL","c":1,"m":0.85},
+{"Call_To__c":"9035019806","Status__c":"Missed","c":1,"m":0.43},
+{"Call_To__c":"9035014907","Status__c":"ANSWER","c":1,"m":1.52},
+{"Call_To__c":"9035016795","Status__c":"NOANSWER","c":1,"m":1.35}]

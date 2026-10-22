@@ -293,7 +293,7 @@ def render_pdf(day, tables, path):
     story.append(Spacer(1, 6 * mm))
     SimpleDocTemplate(str(path), pagesize=A4, leftMargin=15 * mm, rightMargin=15 * mm,
                       topMargin=15 * mm, bottomMargin=15 * mm,
-                      title=f"{CONFIG['report_title']} - {day:%d %b %Y}").build(story)
+                      title=f"{CONFIG['report_title']} - {day:%d %b %Y}", pageCompression=1).build(story)
 
 
 def build(day):
