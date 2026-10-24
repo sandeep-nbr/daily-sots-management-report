@@ -1,0 +1,38 @@
+[
+{
+"Call_To__c": "9035019806",
+"Status__c": "ANSWER",
+"c": 2,
+"m": 9.08
+},
+{
+"Call_To__c": "9035016795",
+"Status__c": "ANSWER",
+"c": 1,
+"m": 0.65
+},
+{
+"Call_To__c": "9035019806",
+"Status__c": "CONNECTING",
+"c": 1,
+"m": null
+},
+{
+"Call_To__c": "9035019806",
+"Status__c": "CANCEL",
+"c": 3,
+"m": 0.81
+},
+{
+"Call_To__c": "9035014907",
+"Status__c": "ANSWER",
+"c": 1,
+"m": 2.37
+},
+{
+"Call_To__c": "9035019806",
+"Status__c": "NOANSWER",
+"c": 1,
+"m": 1.38
+}
+]

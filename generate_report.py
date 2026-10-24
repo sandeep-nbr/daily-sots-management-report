@@ -132,28 +132,35 @@ def site_visit_tables(day):
     roster = Roster()
     done_by_source = defaultdict(lambda: defaultdict(int))
     sched = defaultdict(lambda: {"scheduled": 0, "done": 0, "rescheduled": 0})
-    leads_with_visit = set()
+    open_visits = {}  # lead id -> (owner, source) of a non-done visit that day
+    done_leads = set()
     for v in load(day, "site_visits"):
         user = roster.owner(v.get("OwnerId"))
         status = v.get("Status__c")
         if status == "Cancelled" or not v.get("Lead__c"):
             continue
-        leads_with_visit.add(v.get("Lead__c"))
+        src = source_of((v.get("Lead__r") or {}).get("Lead_Source__c"))
         sched[user]["scheduled"] += 1
         if status == "Done":
             sched[user]["done"] += 1
-            src = source_of((v.get("Lead__r") or {}).get("Lead_Source__c"))
             done_by_source[user][src] += 1
+            done_leads.add(v["Lead__c"])
         elif status == "Re-Scheduled":
             sched[user]["rescheduled"] += 1
-    # Walk-ins marked visit-done on the lead itself, without a Site Visit record that day.
+        else:
+            open_visits[v["Lead__c"]] = (user, src)
+    # Leads marked visit-done on the lead itself: either completes that day's still-open
+    # visit record, or is a walk-in with no visit record.
     for lead in load(day, "walkin_visits"):
-        if lead["Id"] in leads_with_visit:
+        if lead["Id"] in done_leads:
             continue
-        user = roster.owner(lead.get("OwnerId"))
-        sched[user]["scheduled"] += 1
+        if lead["Id"] in open_visits:
+            user, src = open_visits.pop(lead["Id"])
+        else:
+            user, src = roster.owner(lead.get("OwnerId")), source_of(lead.get("Lead_Source__c"))
+            sched[user]["scheduled"] += 1
         sched[user]["done"] += 1
-        done_by_source[user][source_of(lead.get("Lead_Source__c"))] += 1
+        done_by_source[user][src] += 1
     return done_by_source, sched
 
 
