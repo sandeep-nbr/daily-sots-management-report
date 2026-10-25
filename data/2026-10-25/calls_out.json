@@ -1,0 +1,44 @@
+[
+{
+"Call_From__c": "9035019806",
+"Status__c": "Customer Busy",
+"c": 17,
+"m": 10.6
+},
+{
+"Call_From__c": "9035014907",
+"Status__c": "Call Complete",
+"c": 6,
+"m": 5.14
+},
+{
+"Call_From__c": "9035016795",
+"Status__c": "Customer Busy",
+"c": 32,
+"m": 15.37
+},
+{
+"Call_From__c": "9035019806",
+"Status__c": "Originate",
+"c": 14,
+"m": null
+},
+{
+"Call_From__c": "9035016795",
+"Status__c": "Call Complete",
+"c": 10,
+"m": 7.98
+},
+{
+"Call_From__c": "9035014907",
+"Status__c": "Customer Busy",
+"c": 14,
+"m": 6.08
+},
+{
+"Call_From__c": "9035019806",
+"Status__c": "Call Complete",
+"c": 3,
+"m": 5.13
+}
+]
