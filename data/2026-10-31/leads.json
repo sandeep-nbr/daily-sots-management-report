@@ -1,0 +1,98 @@
+[
+{
+"OwnerId": "005Kj00000CDa4iIAD",
+"Lead_Source__c": "Channel Partner",
+"Lead_Sub_Source__c": "RP Clan",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CD7qdIAD",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "Enquiry Form",
+"c": 2
+},
+{
+"OwnerId": "005Kj00000CD7qdIAD",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "Walkin",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDEofIAH",
+"Lead_Source__c": "Digital",
+"Lead_Sub_Source__c": "LS-Google",
+"c": 2
+},
+{
+"OwnerId": "005Kj00000CDa4iIAD",
+"Lead_Source__c": "Channel Partner",
+"Lead_Sub_Source__c": null,
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDa4jIAD",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "HOARDING",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDEogIAH",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "Enquiry Form",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CD9PQIA1",
+"Lead_Source__c": "Channel Partner",
+"Lead_Sub_Source__c": null,
+"c": 2
+},
+{
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": null,
+"Lead_Sub_Source__c": null,
+"c": 2
+},
+{
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital",
+"Lead_Sub_Source__c": "Facebook",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDa4iIAD",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "Enquiry Form",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDEoeIAH",
+"Lead_Source__c": null,
+"Lead_Sub_Source__c": null,
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CD7qaIAD",
+"Lead_Source__c": "OFFLINE",
+"Lead_Sub_Source__c": "Walkin",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CDEofIAH",
+"Lead_Source__c": null,
+"Lead_Sub_Source__c": null,
+"c": 2
+},
+{
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital",
+"Lead_Sub_Source__c": "LS-Google",
+"c": 1
+},
+{
+"OwnerId": "005Kj00000CD7qeIAD",
+"Lead_Source__c": "Channel Partner",
+"Lead_Sub_Source__c": null,
+"c": 2
+}
+]

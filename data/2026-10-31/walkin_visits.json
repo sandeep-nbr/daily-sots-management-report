@@ -1,0 +1,87 @@
+[
+{
+"Id": "a0BUf000005EguPMAS",
+"OwnerId": "005Kj00000CDa4lIAD",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000006XesrMAC",
+"OwnerId": "005Kj00000CDEofIAH",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000007uRmHMAU",
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital"
+},
+{
+"Id": "a0BUf000007wEg5MAE",
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital"
+},
+{
+"Id": "a0BUf000007wqevMAA",
+"OwnerId": "005Kj00000CDEofIAH",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000007xBOPMA2",
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital"
+},
+{
+"Id": "a0BUf000007xBeXMAU",
+"OwnerId": "005Kj00000CD9PQIA1",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000007xrabMAA",
+"OwnerId": "005Kj00000CDa4jIAD",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y2cPMAQ",
+"OwnerId": "005Kj00000CD7qeIAD",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000007y3WvMAI",
+"OwnerId": "005Kj00000CDa4iIAD",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y3ztMAA",
+"OwnerId": "005Kj00000CD7qaIAD",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y57FMAQ",
+"OwnerId": "005Kj00000CD7qdIAD",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y5FNMAY",
+"OwnerId": "005Kj00000CD7qdIAD",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y64vMAA",
+"OwnerId": "005Kj00000CDa4iIAD",
+"Lead_Source__c": "Channel Partner"
+},
+{
+"Id": "a0BUf000007y6MfMAI",
+"OwnerId": "005Kj00000CDa4kIAD",
+"Lead_Source__c": "Digital"
+},
+{
+"Id": "a0BUf000007y72bMAA",
+"OwnerId": "005Kj00000CDEogIAH",
+"Lead_Source__c": "OFFLINE"
+},
+{
+"Id": "a0BUf000007y8unMAA",
+"OwnerId": "005Kj00000CD7qdIAD",
+"Lead_Source__c": "OFFLINE"
+}
+]
