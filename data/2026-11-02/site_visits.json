@@ -1,0 +1,20 @@
+[
+{
+"Id": "a0AUf00000LCEHdMAP",
+"OwnerId": "005Kj00000CD9PQIA1",
+"Status__c": "Scheduled",
+"Lead__c": "a0BUf000007yjr3MAA",
+"Lead__r": {
+"Lead_Source__c": "Channel Partner"
+}
+},
+{
+"Id": "a0AUf00000LCEW9MAP",
+"OwnerId": "005Kj00000CD9PQIA1",
+"Status__c": "Scheduled",
+"Lead__c": "a0BUf000007xBeXMAU",
+"Lead__r": {
+"Lead_Source__c": "Channel Partner"
+}
+}
+]
