@@ -1,0 +1,26 @@
+[
+{
+"Call_From__c": "9035016795",
+"Status__c": "Customer Busy",
+"c": 78,
+"m": 38.73
+},
+{
+"Call_From__c": "9035016795",
+"Status__c": "Originate",
+"c": 3,
+"m": null
+},
+{
+"Call_From__c": "9035046351",
+"Status__c": "Call Complete",
+"c": 1,
+"m": 0.55
+},
+{
+"Call_From__c": "9035016795",
+"Status__c": "Call Complete",
+"c": 37,
+"m": 33.07
+}
+]
